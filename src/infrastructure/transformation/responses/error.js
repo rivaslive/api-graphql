@@ -1,5 +1,7 @@
 import { UserInputError, ApolloError } from 'apollo-server-express';
-import { Error } from 'mongoose';
+import mongoose from 'mongoose';
+
+const { Error } = mongoose;
 
 const { ValidationError } = Error;
 

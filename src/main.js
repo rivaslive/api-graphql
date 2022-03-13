@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import initializeServer from 'infrastructure/server';
+import initializeServer from './infrastructure/server';
 
 const startServer = initializeServer();
 

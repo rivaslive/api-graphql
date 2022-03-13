@@ -6,9 +6,9 @@ import {
   ApolloServerPluginLandingPageGraphQLPlayground,
 } from 'apollo-server-core';
 
-import modules from '$modules';
-import models from '$models';
-import getConfig from '$config';
+import modules from '../../application/modules';
+import models from '../../domain/models';
+import getConfig from '../config';
 import { initializeDB } from './db';
 
 const { port } = getConfig;

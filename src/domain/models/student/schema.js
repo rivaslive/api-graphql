@@ -1,6 +1,7 @@
-import mongoose, { Schema } from 'mongoose';
+import mongoose from 'mongoose';
 
 const modelName = 'students';
+const { Schema } = mongoose;
 
 const schema = new Schema(
   {
@@ -8,13 +9,13 @@ const schema = new Schema(
       type: String,
     },
     email: {
-      type: String
+      type: String,
     },
     career: {
-      type: String
+      type: String,
     },
     codeStudent: {
-      type: String
+      type: String,
     },
     status: {
       type: String,

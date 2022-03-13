@@ -1,4 +1,4 @@
-import { response } from 'infrastructure/transformation';
+import { response } from '../../../infrastructure/transformation';
 
 const Query = {
   allStudents: async (_root, args, context) => {
